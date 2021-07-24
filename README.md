@@ -54,7 +54,7 @@ insert into users (first_name, last_name)
 values ('test', 'user'), ('test2', 'user');
 
 2. UPDATE all Ohio addresses to "REDACTED":
-
+update usersAddress set address = 'REDACTED' where state = 'OH';
 
 3. All three DELETES
 
